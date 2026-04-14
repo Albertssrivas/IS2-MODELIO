@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SATurnos" version="4">
+  <OBJECT>
+    <ID name="SATurnos" mc="Standard.Interface" uid="95c6baaa-c22f-4d7e-9c13-1f09f2bb4fc1"/>
+    <PID name="Negocio" mc="Standard.Package" uid="5975b9d7-dcc0-443e-98e9-65f5632c5035"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SATurnos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

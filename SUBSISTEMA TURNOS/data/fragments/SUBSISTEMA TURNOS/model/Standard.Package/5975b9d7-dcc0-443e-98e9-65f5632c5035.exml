@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Negocio" version="4">
+  <OBJECT>
+    <ID name="Negocio" mc="Standard.Package" uid="5975b9d7-dcc0-443e-98e9-65f5632c5035"/>
+    <PID name="subsistema turnos" mc="Standard.Package" uid="168815e7-6ec7-47e6-ad18-9e4a4ee9d1cd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Negocio]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TTurno" mc="Standard.Class" uid="09b8a307-50d5-4fbc-9581-289cf38d04a5"/>
+        <COMPID name="SATurnos" mc="Standard.Interface" uid="95c6baaa-c22f-4d7e-9c13-1f09f2bb4fc1"/>
+        <COMPID name="SATurnosImp" mc="Standard.Class" uid="b5553e09-6a28-4269-8fc1-e6853d762ee7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

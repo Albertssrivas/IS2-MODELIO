@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Actor" version="4">
+  <OBJECT>
+    <ID name="Actor" mc="Standard.Actor" uid="0438f5d4-6c93-4f62-acc2-f1a9a3f22ff4"/>
+    <PID name="Diagramas De Secuencia" mc="Standard.Package" uid="a951dcf5-dbba-4ef5-a31f-b66ba2547264"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Actor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

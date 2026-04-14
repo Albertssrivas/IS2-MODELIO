@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="subsistema turnos" version="4">
+  <OBJECT>
+    <ID name="subsistema turnos" mc="Standard.Package" uid="168815e7-6ec7-47e6-ad18-9e4a4ee9d1cd"/>
+    <PID name="SUBSISTEMA TURNOS" mc="Standard.Project" uid="3ec7e33b-e23b-40e7-b35f-bbf1329a06c1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[subsistema turnos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Integracion (DAO)" mc="Standard.Package" uid="3fa147c4-06e5-4ec7-b0ae-f6de119b970d"/>
+        <COMPID name="Negocio" mc="Standard.Package" uid="5975b9d7-dcc0-443e-98e9-65f5632c5035"/>
+        <COMPID name="Presentacion (GUI)" mc="Standard.Package" uid="6fdb84e6-0144-4be7-aaae-f08c918b35a8"/>
+        <COMPID name="Diagramas De Secuencia" mc="Standard.Package" uid="a951dcf5-dbba-4ef5-a31f-b66ba2547264"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

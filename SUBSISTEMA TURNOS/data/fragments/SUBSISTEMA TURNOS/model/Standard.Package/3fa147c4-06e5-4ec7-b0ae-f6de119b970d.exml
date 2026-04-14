@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Integracion (DAO)" version="4">
+  <OBJECT>
+    <ID name="Integracion (DAO)" mc="Standard.Package" uid="3fa147c4-06e5-4ec7-b0ae-f6de119b970d"/>
+    <PID name="subsistema turnos" mc="Standard.Package" uid="168815e7-6ec7-47e6-ad18-9e4a4ee9d1cd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Integracion (DAO)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DAOTurnos" mc="Standard.Class" uid="1d570400-66a9-4de4-84d5-f3bcb9f355ca"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

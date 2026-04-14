@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagramas De Secuencia" version="4">
+  <OBJECT>
+    <ID name="Diagramas De Secuencia" mc="Standard.Package" uid="a951dcf5-dbba-4ef5-a31f-b66ba2547264"/>
+    <PID name="subsistema turnos" mc="Standard.Package" uid="168815e7-6ec7-47e6-ad18-9e4a4ee9d1cd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Diagramas De Secuencia]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="fadcc0cc-f1c8-494e-af90-5f1b65f8217e"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Actor" mc="Standard.Actor" uid="0438f5d4-6c93-4f62-acc2-f1a9a3f22ff4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
