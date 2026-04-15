@@ -14,7 +14,8 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="DAOTurnos" mc="Standard.Class" uid="1d570400-66a9-4de4-84d5-f3bcb9f355ca"/>
+        <COMPID name="DAOTurnos" mc="Standard.Interface" uid="1264dac1-da0c-43ef-9840-30ce901eb089"/>
+        <COMPID name="DAOTurnosImp" mc="Standard.Class" uid="3efd23fb-e8f7-4927-b7d0-fcdef3b774c3"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
