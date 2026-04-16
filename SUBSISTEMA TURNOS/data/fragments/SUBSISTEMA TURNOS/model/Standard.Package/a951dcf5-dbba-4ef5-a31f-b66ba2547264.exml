@@ -14,7 +14,8 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
-        <COMPID name="Interaction" mc="Standard.Interaction" uid="fadcc0cc-f1c8-494e-af90-5f1b65f8217e"/>
+        <COMPID name="AltaTurno" mc="Standard.Interaction" uid="fadcc0cc-f1c8-494e-af90-5f1b65f8217e"/>
+        <COMPID name="BajaTurno" mc="Standard.Interaction" uid="dc9581d1-9b59-4dea-b676-b5e53232353a"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Actor" mc="Standard.Actor" uid="0438f5d4-6c93-4f62-acc2-f1a9a3f22ff4"/>

@@ -14,9 +14,11 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="TTurno" mc="Standard.Class" uid="09b8a307-50d5-4fbc-9581-289cf38d04a5"/>
-        <COMPID name="SATurnos" mc="Standard.Interface" uid="95c6baaa-c22f-4d7e-9c13-1f09f2bb4fc1"/>
+        <COMPID name="tTurno" mc="Standard.Class" uid="09b8a307-50d5-4fbc-9581-289cf38d04a5"/>
+        <COMPID name="ISATurnos" mc="Standard.Interface" uid="95c6baaa-c22f-4d7e-9c13-1f09f2bb4fc1"/>
         <COMPID name="SATurnosImp" mc="Standard.Class" uid="b5553e09-6a28-4269-8fc1-e6853d762ee7"/>
+        <COMPID name="FachadaTurnosImp" mc="Standard.Class" uid="dc38e110-26b2-4f6e-b6ee-058212a9e6f0"/>
+        <COMPID name="IFachadaTurnos" mc="Standard.Interface" uid="7875a2d8-3c1d-4a97-8c59-225c010ef8d7"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

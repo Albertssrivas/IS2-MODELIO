@@ -1,23 +1,21 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GUITurnos" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="IFachadaTurnos" version="4">
   <OBJECT>
-    <ID name="GUITurnos" mc="Standard.Class" uid="b508ce4b-e1ae-42c9-b69c-e49e68a5bc02"/>
-    <PID name="Presentacion (GUI)" mc="Standard.Package" uid="6fdb84e6-0144-4be7-aaae-f08c918b35a8"/>
+    <ID name="IFachadaTurnos" mc="Standard.Interface" uid="7875a2d8-3c1d-4a97-8c59-225c010ef8d7"/>
+    <PID name="Negocio" mc="Standard.Package" uid="5975b9d7-dcc0-443e-98e9-65f5632c5035"/>
     <ATTRIBUTES>
-      <ATT name="IsActive">false</ATT>
-      <ATT name="IsMain">false</ATT>
       <ATT name="IsElementary">false</ATT>
-      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[GUITurnos]]></ATT>
+      <ATT name="Name"><![CDATA[IFachadaTurnos]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="altaTurno" mc="Standard.Operation" uid="c536eb6e-3ddc-447e-a1ef-1e5a856788a9"/>
+          <ID name="altaTurno" mc="Standard.Operation" uid="738da996-9f97-4ce9-b11e-3667d0250e0e"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -31,7 +29,7 @@
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="turno" mc="Standard.Parameter" uid="45c41ff4-6a5c-4036-8718-2306453125c2"/>
+                <ID name="turno" mc="Standard.Parameter" uid="81237de0-136a-4a42-8ad2-aa03006d1579"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -49,6 +47,30 @@
                 <DEPENDENCIES>
                   <LINK relation="Type">
                     <ID name="tTurno" mc="Standard.Class" uid="09b8a307-50d5-4fbc-9581-289cf38d04a5"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Return">
+              <OBJECT>
+                <ID name="p2" mc="Standard.Parameter" uid="1f14afc7-04a9-4e61-88c7-c733cc3f6143"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[p2]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>

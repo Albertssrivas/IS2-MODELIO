@@ -1,21 +1,21 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ISATurnos" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="IFachadaDAOTurnos" version="4">
   <OBJECT>
-    <ID name="ISATurnos" mc="Standard.Interface" uid="95c6baaa-c22f-4d7e-9c13-1f09f2bb4fc1"/>
-    <PID name="Negocio" mc="Standard.Package" uid="5975b9d7-dcc0-443e-98e9-65f5632c5035"/>
+    <ID name="IFachadaDAOTurnos" mc="Standard.Interface" uid="63e91482-63b0-402a-aeac-5631c4e67351"/>
+    <PID name="Integracion (DAO)" mc="Standard.Package" uid="3fa147c4-06e5-4ec7-b0ae-f6de119b970d"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">true</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ISATurnos]]></ATT>
+      <ATT name="Name"><![CDATA[IFachadaDAOTurnos]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="altaTurno" mc="Standard.Operation" uid="c0d9561f-2e2d-4d97-aa21-27fa622abd5c"/>
+          <ID name="altaTurno" mc="Standard.Operation" uid="71c16127-ff01-436d-9b24-0daee407032f"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -29,7 +29,7 @@
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="t" mc="Standard.Parameter" uid="1676da07-7b5f-45b0-8a3d-804e2ea834b3"/>
+                <ID name="t" mc="Standard.Parameter" uid="b3f15da8-3514-425d-af95-020c254dff28"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -50,7 +50,7 @@
                   </LINK>
                   <COMP relation="Descriptor">
                     <OBJECT>
-                      <ID name="" mc="Infrastructure.Note" uid="66d8bb99-9035-4b2b-a5fc-202bc6ed7e78"/>
+                      <ID name="" mc="Infrastructure.Note" uid="604b278d-97a6-4245-bbba-88e0239f32f5"/>
                       <ATTRIBUTES>
                         <ATT name="Content"><![CDATA[<Enter note text here>
 ]]></ATT>
@@ -70,7 +70,7 @@
             </COMP>
             <COMP relation="Return">
               <OBJECT>
-                <ID name="" mc="Standard.Parameter" uid="1efccb1c-9fe7-4697-9556-6a068ad549cc"/>
+                <ID name="" mc="Standard.Parameter" uid="2755045b-e52b-4bd7-828c-48835c0381a2"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -95,7 +95,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="existeEmp" mc="Standard.Operation" uid="7e55ed4a-8880-45a7-b66c-a92739e9a1e4"/>
+          <ID name="existeEmp" mc="Standard.Operation" uid="3aba3e50-2fa6-4f1c-a623-10a7f263e0ed"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -109,7 +109,7 @@
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="id" mc="Standard.Parameter" uid="444ce804-c49b-45bf-9b72-8899fadee55f"/>
+                <ID name="id" mc="Standard.Parameter" uid="4fc91504-5894-4a89-b036-e4d0d5c89598"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -133,7 +133,7 @@
             </COMP>
             <COMP relation="Return">
               <OBJECT>
-                <ID name="p2" mc="Standard.Parameter" uid="800c09e2-70ed-458b-8ddb-76759e61cba7"/>
+                <ID name="p2" mc="Standard.Parameter" uid="87d87c73-1d8e-459f-99a8-915725fa92d5"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -158,7 +158,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="existeTurno" mc="Standard.Operation" uid="eca6d761-e934-4a61-bc6d-2fe758695cf3"/>
+          <ID name="existeTurno" mc="Standard.Operation" uid="d20cf894-139b-4366-bc7a-36065485ae62"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -172,7 +172,7 @@
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="turno" mc="Standard.Parameter" uid="38c66723-2706-4e03-948b-0dbd50640980"/>
+                <ID name="turno" mc="Standard.Parameter" uid="8d62207b-4152-40ee-a771-25f0a769cc80"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -196,7 +196,7 @@
             </COMP>
             <COMP relation="Return">
               <OBJECT>
-                <ID name="p2" mc="Standard.Parameter" uid="70a65317-b385-40dd-aa32-31d5bd0d7433"/>
+                <ID name="p2" mc="Standard.Parameter" uid="ba997ab5-c096-47a7-92a9-05e614170c2f"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -221,7 +221,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="buscarTurno" mc="Standard.Operation" uid="92100886-1e00-4a44-b7ae-1e243008acd9"/>
+          <ID name="leerTurno" mc="Standard.Operation" uid="4c015f93-7969-47c6-b840-b0caa0fc6717"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -229,13 +229,13 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[buscarTurno]]></ATT>
+            <ATT name="Name"><![CDATA[leerTurno]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="id" mc="Standard.Parameter" uid="6ce327cf-e8e0-4322-8dcf-02d9f3b1515a"/>
+                <ID name="id" mc="Standard.Parameter" uid="c4007cb2-d73c-4cd1-898d-f84c491b4ba4"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -259,7 +259,7 @@
             </COMP>
             <COMP relation="Return">
               <OBJECT>
-                <ID name="p2" mc="Standard.Parameter" uid="e8ba9d26-b12d-4915-88d0-1512ef6e0e22"/>
+                <ID name="p2" mc="Standard.Parameter" uid="cb1e831c-94a9-4dc9-bf64-7d5b04737329"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -284,7 +284,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="bajaTurno" mc="Standard.Operation" uid="443ccb80-87e2-4208-a8df-775b6a40f511"/>
+          <ID name="eliminarTurno" mc="Standard.Operation" uid="e40e38d1-847f-42bf-b9db-5b67d1acf2f4"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -292,13 +292,13 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[bajaTurno]]></ATT>
+            <ATT name="Name"><![CDATA[eliminarTurno]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="id" mc="Standard.Parameter" uid="2e2a4ecf-ccbe-4631-b504-7ef2a8c9b671"/>
+                <ID name="id" mc="Standard.Parameter" uid="a5301a19-2323-4bff-a351-5c1aa728ec78"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -322,7 +322,7 @@
             </COMP>
             <COMP relation="Return">
               <OBJECT>
-                <ID name="p2" mc="Standard.Parameter" uid="1c262069-4c72-4c09-a78d-0dc39083fac9"/>
+                <ID name="p2" mc="Standard.Parameter" uid="48a5e01f-db14-4ae6-a07d-cc020594d9c1"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>

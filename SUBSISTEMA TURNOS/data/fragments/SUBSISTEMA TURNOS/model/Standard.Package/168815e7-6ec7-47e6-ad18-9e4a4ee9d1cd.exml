@@ -18,6 +18,7 @@
         <COMPID name="Negocio" mc="Standard.Package" uid="5975b9d7-dcc0-443e-98e9-65f5632c5035"/>
         <COMPID name="Presentacion (GUI)" mc="Standard.Package" uid="6fdb84e6-0144-4be7-aaae-f08c918b35a8"/>
         <COMPID name="Diagramas De Secuencia" mc="Standard.Package" uid="a951dcf5-dbba-4ef5-a31f-b66ba2547264"/>
+        <COMPID name="DATOS" mc="Standard.Package" uid="a86ed4d6-abf3-4b29-8435-243e10c61247"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

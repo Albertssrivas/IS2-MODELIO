@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Presentacion (GUI)" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DATOS" version="4">
   <OBJECT>
-    <ID name="Presentacion (GUI)" mc="Standard.Package" uid="6fdb84e6-0144-4be7-aaae-f08c918b35a8"/>
+    <ID name="DATOS" mc="Standard.Package" uid="a86ed4d6-abf3-4b29-8435-243e10c61247"/>
     <PID name="subsistema turnos" mc="Standard.Package" uid="168815e7-6ec7-47e6-ad18-9e4a4ee9d1cd"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,13 +9,12 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Presentacion (GUI)]]></ATT>
+      <ATT name="Name"><![CDATA[DATOS]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="GUITurnos" mc="Standard.Class" uid="b508ce4b-e1ae-42c9-b69c-e49e68a5bc02"/>
-        <COMPID name="CtrlTurnos" mc="Standard.Class" uid="6474b996-6425-42a6-936c-ddfc6d6f2cec"/>
+        <COMPID name="BBDD" mc="Standard.Class" uid="66656c7e-3bd9-4eb1-b40b-0cd1dbc478a7"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
